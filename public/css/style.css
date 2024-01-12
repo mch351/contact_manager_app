@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Gandom';
+    src: url('../fonts/Gandom.eot');
+    src: url('../fonts/Gandom.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gandom.woff2') format('woff2'),
+        url('../fonts/Gandom.woff') format('woff'),
+        url('../fonts/Gandom.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.Toastify__toast-body {
+    font-family: 'Gandom', ubunto,Tahoma !important;
+}
