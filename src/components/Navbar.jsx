@@ -2,6 +2,7 @@ import {useLocation} from "react-router-dom";
 
 import {SearchContact} from "./Index";
 import {DARKBLUE, PALEBLUE} from "../helpers/Colors";
+import ColorFull from "../hoc/ColorFull";
 
 const Navbar = () => {
 
@@ -9,7 +10,8 @@ const Navbar = () => {
 
     return (
         <nav className="navbar navbar-dark navbar-expand-sm shadow-lg"
-             style={{backgroundColor: DARKBLUE}}>
+            // style={{backgroundColor: DARKBLUE}}
+        >
             <div className="container" dir="rtl">
                 <div className="row w-100">
                     <div className="col">
@@ -32,4 +34,4 @@ const Navbar = () => {
         </nav>)
 }
 
-export default Navbar;
+export default ColorFull(Navbar);
