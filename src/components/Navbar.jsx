@@ -34,4 +34,5 @@ const Navbar = () => {
         </nav>)
 }
 
-export default ColorFull(Navbar);
+// export default ColorFull(Navbar);
+export default Navbar;

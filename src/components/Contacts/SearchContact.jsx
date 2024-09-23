@@ -17,7 +17,7 @@ const SearchContact = () => {
             type="text"
             // value={contactQuery.text}
             onChange={event=>contactSearch(event.target.value)}
-            className="form-control"
+            className="form-control text-white"
             placeholder="جستجوی مخاطب"
             aria-label="Search"
             aria-describedby="basic-addon1"/>

@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const SERVER_URL = "http://localhost:9000";
+// const SERVER_URL = "http://localhost:9000";
+const SERVER_URL = "mysql://root:Fyd9d4i5CKsyqRvBzH8IGEQB@contact-manager-server:3306/nostalgic_jepsen";
+
 
 // @desc Get All Contacts
 // @route GET http://localhost:9000/contacts
